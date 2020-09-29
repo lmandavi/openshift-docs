@@ -1,0 +1,14 @@
+[id="virt-managing-cpu-node-discovery"]
+= Managing CPU node discovery
+include::modules/virt-document-attributes.adoc[]
+include::modules/common-attributes.adoc[]
+:context: virt-managing-cpu-node-discovery
+toc::[]
+
+The CPU node discovery feature enables you to schedule virtual machines (VMs) on nodes that support specific CPU models and policy attributes. A VM's CPU model and hardware features are matched for compatibility with the CPU model and policy attribute supported by the node. Then, the VM is scheduled on that node.
+
+include::modules/virt-understanding-node-labeling-vms.adoc[leveloffset=+1]
+include::modules/virt-configuring-denylist-for-obsolete-cpu-models.adoc[leveloffset=+1]
+include::modules/virt-label-nodes-schedule-vms.adoc[leveloffset=+1]
+include::modules/virt-setting-cpu-node-discovery.adoc[leveloffset=+1]
+include::modules/virt-setting-default-cpu-model-cluster.adoc[leveloffset=+1]
